@@ -3,14 +3,12 @@ name: t1
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "*/15 * * * *"
 
 jobs:
   # Set the job key. The key is displayed as the job name
   # when a job name is not provided
-  test-action:
-    # Name the Job
-    name: Some test action
+  test-action1:
     # Set the type of machine to run on
     runs-on: ubuntu-latest
 
