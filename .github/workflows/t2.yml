@@ -1,5 +1,5 @@
 ---
-name: t1
+name: t2
 
 on:
   schedule:
@@ -20,5 +20,5 @@ jobs:
         uses: actions/checkout@v2
 
       # Runs some action
-      - name: Run some action 1
+      - name: Run some action 2
         run: ls -la
